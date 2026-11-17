@@ -1,0 +1,39 @@
+# 陈与小金
+
+陈与小金 · FDE，AI 落地。
+
+用 Claude Code 把 AI 装进真实业务：工作、生意、工作流。主 Claude Code，次 Codex。
+
+## 站点
+
+- 主页：https://xiaochens.com/
+- Works（作品）：https://xiaochens.com/works.html
+- About（关于）：https://xiaochens.com/about.html
+- Playground（在线入口）：https://xiaochens.com/play-ground.html
+- Contact（联系）：https://xiaochens.com/contact.html
+- 博客：https://blog.xiaochens.com/
+
+## 作品（数字截至 2026-07）
+
+- DropKit：macOS 菜单栏工具（摇一摇唤出悬浮文件架 + 可搜索剪贴板历史），Swift 开发，已上架 Mac App Store（v1.0.7）；外部开发者提交 9 个 PR，8 个已整合。https://apps.apple.com/cn/app/dropkit-clipboard/id6778846792 · https://github.com/chenyuxiaojin/DropKit
+- obsidian-llm-translate：Obsidian 翻译插件，已收录官方社区插件目录（id: llm-translate）。https://github.com/chenyuxiaojin/obsidian-llm-translate
+- davinci-resolve-mcp 贡献：给该 1.7k+ star 第三方项目提交的 4 个 bug 报告全部确认修复，3 个 commit 以 Co-Authored-By 署名，2 份 release note 点名致谢共 6 次；用 130 次连续 append 实验验证了 endFrame 未文档化的 exclusive-bound 行为。https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v2.60.0
+- xiaochen-skills：Claude Code 插件市场，17 个插件 / 19 个技能，近 14 天被 clone 385 次。https://github.com/chenyuxiaojin/xiaochen-skills
+- cyxj-groksearch：Claude Code 联网搜索 MCP 服务，14 star，经 linux.do 社区自然传播。https://github.com/chenyuxiaojin/cyxj-groksearch
+- Vibe Motion：开源组织成员，维护组织内 remotion-starter 仓库，仓库官方简介署名「maintained by 陈与小金」。https://github.com/vibe-motion/remotion-starter
+- AI 内容创作：近 30 天播放 90 万+，单条最高 68.44 万，已发布 8 条视频全部入选抖音精选（抖音后台数据，自报口径）。https://v.douyin.com/A1qVQrOgPjY/
+- 外部发表：3 篇文章刊于「人人都是产品经理」（woshipm.com）。https://blog.xiaochens.com/publications/
+
+开源总量：9 个原创公开项目（不含 fork 和主页仓库）。
+
+## 平台
+
+- YouTube：https://www.youtube.com/@cyxj_ai
+- X：https://x.com/cyxjya
+- 抖音：https://v.douyin.com/A1qVQrOgPjY/
+- B站：https://b23.tv/Wr1JBHo
+- GitHub：https://github.com/chenyuxiaojin
+
+## 关键词
+
+陈与小金、AI 落地、Forward Deployed Engineer、Claude Code、Codex、AI 工作流、AI 提效、业务自动化。

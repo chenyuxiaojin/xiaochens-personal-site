@@ -1,0 +1,9 @@
+.cyxj-review{position:fixed;bottom:20px;left:20px;z-index:2147483646;font:12px/1.6 system-ui,sans-serif;color:#eee}.cyxj-review button{font:inherit;cursor:pointer;color:inherit;background:#1c1c1c;border:1px solid #999;padding:8px 12px}.cyxj-review .review-body{background:#171717f5;padding:18px;max-width:350px;max-height:65vh;overflow:auto;border:1px solid #777}.review-body[hidden]{display:none}.review-buttons{display:flex;gap:7px;flex-wrap:wrap}.cyxj-review output{display:block;white-space:pre-wrap;overflow-wrap:anywhere;font:10px monospace;margin-top:14px}.cyxj-review p{margin:0 0 14px}
+
+.cyxj-work-link{display:block;color:#111;text-align:center;font:800 15px PPNikkeiMaru-Ultrabold,sans-serif;text-decoration:none;align-self:center;border-bottom:2px solid #c82924;padding:12px 4px;margin:24px auto 70px;transition:color .2s,transform .2s}.cyxj-work-link:hover{color:#c82924;transform:translateY(-3px)}.cyxj-work-link:focus-visible{outline:2px solid #c82924;outline-offset:5px}
+
+html[lang="zh-CN"] .intro .heading2{font-family:"Songti SC","STSong",serif!important;font-weight:600;font-style:normal;letter-spacing:-.035em}
+
+/* Keep the native loader animation while using the personal identity. */
+.LoaderView .logo{width:172px!important;height:72px!important;background:url("wordmark.svg") center/contain no-repeat!important}
+.LoaderView .logo svg{visibility:hidden}

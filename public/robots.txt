@@ -1,0 +1,18 @@
+# 全放行，含 AI 爬虫（GPTBot / ClaudeBot / PerplexityBot / Google-Extended）。
+# 别 Disallow 它们，那等于亲手把生成式搜索引擎关在门外。
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://xiaochens.com/sitemap.xml

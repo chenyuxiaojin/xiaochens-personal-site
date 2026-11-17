@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #ecebea;
+  --color-paper: #f4f3f1;
+  --color-ink: #161616;
+  --color-ink-soft: #5e5e5a;
+  --color-line: #c9c7c2;
+  --color-accent: #111111;
+  --radius-stack: 20px;
+  --font-heavy-en: "Archivo Black", sans-serif;
+  --font-heavy-zh: "Noto Serif SC", "Archivo Black", serif;
+  --font-body: "Inter", -apple-system, "PingFang SC", sans-serif;
+}
+
+:root {
+  color: var(--color-ink);
+  background: var(--color-bg);
+  font-family: var(--font-body);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--color-bg);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  overflow-x: clip;
+  color: var(--color-ink);
+  background: var(--color-bg);
+}
+
+@media (pointer: fine) {
+  body {
+    cursor: none;
+  }
+
+  a,
+  button {
+    cursor: none;
+  }
+}
+
+body::before {
+  content: "";
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.32), transparent 30%);
+}
+
+body[data-hero-intro="active"] header,
+body[data-hero-intro="active"] nav,
+body[data-hero-intro="active"] [data-menu-hit],
+body[data-hero-intro="active"] header *,
+body[data-hero-intro="active"] nav *,
+body[data-hero-intro="active"] [data-menu-hit] * {
+  pointer-events: none;
+  opacity: 0;
+}
+
+body header,
+body nav,
+body [data-menu-hit] {
+  transition: opacity 0.42s ease;
+}
+
+::selection {
+  background: var(--color-ink);
+  color: var(--color-paper);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+.editorial-label {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.hairline {
+  border-color: color-mix(in srgb, var(--color-ink) 16%, transparent);
+}
+
+@keyframes loader-exit {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100%);
+    visibility: hidden;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.001ms !important;
+  }
+}
